@@ -1,0 +1,4 @@
+postFailTSAIW = 1455.21
+postFailTSAIH = 1595.99
+postFailMSTRS = 1689.82
+postFailAZZIT = 1642.89
