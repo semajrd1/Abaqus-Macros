@@ -1,6 +1,6 @@
 # Abaqus Macros
 
-This repository contains a collection of Python and MATLAB scripts designed to automate and enhance simulations in Abaqus, a leading Finite Element Analysis (FEA) software. These macros facilitate various tasks, including composite material analysis, mesh convergence studies, and Design of Experiments (DOE) for Single Lap Joints (SLJ).
+This repository contains a collection of Python and MATLAB scripts designed to automate and enhance simulations in Abaqus, a leading Finite Element Analysis (FEA) software. These macros facilitate various tasks, including composite material analysis, mesh convergence studies, and geometric influence assessments.
 
 ## Contents
 
@@ -10,7 +10,7 @@ The repository is organized into the following directories:
    - **Description**: This directory contains scripts for simulating composite straps subjected to pin loading. The macros automate the setup and analysis processes, enabling efficient evaluation of stress distributions and failure modes in composite materials.
 
 2. **Isight Mesh Convergence Framework/SLJ DOE**:
-   - **Description**: This directory includes macros that integrate with the Isight framework to perform mesh convergence studies and DOE analyses on Single Lap Joints. The scripts help in assessing the impact of various parameters on the performance and reliability of SLJs.
+   - **Description**: This directory includes macros that integrate with the Isight framework to perform mesh convergence studies and DOE analyses on pin-loaded connections. The scripts help in assessing the impact of various parameters on the performance and reliability of mechanical joints.
 
 3. **Pin-Loaded Composite**:
    - **Description**: This directory offers macros focused on the analysis of pin-loaded composite structures. The scripts streamline the modeling and simulation processes, facilitating the investigation of mechanical behavior under different loading conditions.
@@ -43,13 +43,6 @@ To utilize these macros in your Abaqus simulations:
    - Access the Macro Manager via `File` > `Macro Manager`.
    - Create a new macro or run an existing one by selecting the script from the repository.
 
-4. **Follow Script-Specific Instructions**:
-   - Each macro may have unique requirements or steps. Refer to any accompanying documentation or comments within the scripts for detailed guidance.
-
 ## Contributions
 
 Contributions to enhance and expand this collection of macros are welcome. Please fork the repository, make your improvements, and submit a pull request for review.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for detailed terms and conditions.
